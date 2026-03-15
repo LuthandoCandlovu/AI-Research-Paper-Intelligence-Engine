@@ -1,0 +1,10 @@
+﻿pypdf2
+pdfplumber
+spacy
+sentence-transformers
+scikit-learn
+hdbscan
+umap-learn
+streamlit
+pandas
+numpy
