@@ -644,7 +644,7 @@ pytest tests/ -k "cluster"
 
 ---
 
-## 📁 Project Structure
+##  Project Structure
 
 <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%"/>
 
@@ -742,7 +742,7 @@ gantt
 <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%"/>
 
 <details>
-<summary><b>❌  ModuleNotFoundError: No module named 'fitz'</b></summary>
+<summary><b>  ModuleNotFoundError: No module named 'fitz'</b></summary>
 
 ```bash
 pip install PyMuPDF
@@ -750,7 +750,7 @@ pip install PyMuPDF
 </details>
 
 <details>
-<summary><b>❌  OSError: Can't find model 'en_core_web_sm'</b></summary>
+<summary><b>  OSError: Can't find model 'en_core_web_sm'</b></summary>
 
 ```bash
 python -m spacy download en_core_web_sm
@@ -758,7 +758,7 @@ python -m spacy download en_core_web_sm
 </details>
 
 <details>
-<summary><b>❌  CUDA out of memory</b></summary>
+<summary><b> CUDA out of memory</b></summary>
 
 ```bash
 export EMBEDDING_DEVICE=cpu        # fall back to CPU
@@ -767,13 +767,13 @@ export EMBEDDING_DEVICE=cpu        # fall back to CPU
 </details>
 
 <details>
-<summary><b>❌  ValueError: Need at least 3 PDFs for clustering</b></summary>
+<summary><b> ValueError: Need at least 3 PDFs for clustering</b></summary>
 
 Upload at least 3 papers. HDBSCAN needs sufficient data points to form density clusters. 5–10 papers is the recommended minimum for useful results.
 </details>
 
 <details>
-<summary><b>❌  Streamlit: File size exceeds the limit</b></summary>
+<summary><b>  Streamlit: File size exceeds the limit</b></summary>
 
 ```toml
 # .streamlit/config.toml
@@ -783,7 +783,7 @@ maxUploadSize = 200
 </details>
 
 <details>
-<summary><b>❌  Cluster map shows one single large blob</b></summary>
+<summary><b>  Cluster map shows one single large blob</b></summary>
 
 ```python
 # config.py — try these more aggressive separation settings
@@ -793,7 +793,7 @@ UMAP_MIN_DIST    = 0.05   # was 0.1
 </details>
 
 <details>
-<summary><b>❌  All concepts assigned to noise (cluster = -1)</b></summary>
+<summary><b> All concepts assigned to noise (cluster = -1)</b></summary>
 
 ```python
 # config.py — relax the clustering constraints
@@ -803,7 +803,7 @@ HDBSCAN_MIN_SAMPLES      = 1   # makes algorithm less conservative
 </details>
 
 <details>
-<summary><b>❌  App is very slow on large paper sets</b></summary>
+<summary><b> App is very slow on large paper sets</b></summary>
 
 ```bash
 export EMBEDDING_DEVICE=cuda             # GPU acceleration
@@ -896,11 +896,11 @@ We follow [Conventional Commits](https://www.conventionalcommits.org/):
 <div align="center">
 
 ```
-◎ ─────────────────────────────────────────────────────────── ◎
+  ◎ ─────────────────────────────────────────────────────────── ◎
                         MIT LICENSE
-  Copyright © 2024 AI Research Paper Intelligence Engine Contributors
+  Copyright © 2026 AI Research Paper Intelligence Engine Contributors
   Free to use, modify, and distribute with attribution.
-◎ ─────────────────────────────────────────────────────────── ◎
+  ◎ ─────────────────────────────────────────────────────────── ◎
 ```
 
 <br/>
