@@ -896,11 +896,11 @@ We follow [Conventional Commits](https://www.conventionalcommits.org/):
 <div align="center">
 
 ```
-  ◎ ─────────────────────────────────────────────────────────── ◎
+    ◎ ─────────────────────────────────────────────────────────── ◎
                         MIT LICENSE
-  Copyright © 2026 AI Research Paper Intelligence Engine Contributors
-  Free to use, modify, and distribute with attribution.
-  ◎ ─────────────────────────────────────────────────────────── ◎
+      Copyright © 2026 AI Research Paper Intelligence Engine Contributors
+       Free to use, modify, and distribute with attribution.
+    ◎ ─────────────────────────────────────────────────────────── ◎
 ```
 
 <br/>
